@@ -1,3 +1,23 @@
-{
-	"monday": "8am - 4pm"
-}
+[
+	{
+		"monday": "8am - 4pm"
+	},
+	{
+		"tuesday": "8am - 4pm"
+	},
+	{
+		"wednesday": "8am - 4pm"
+	},
+	{
+		"thursday": "8am - 4pm"
+	},
+	{
+		"friday": "8am - 4pm"
+	},
+	{
+		"saturday": ""
+	},
+	{
+		"sunday": ""
+	}
+]
