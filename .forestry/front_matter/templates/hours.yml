@@ -1,4 +1,14 @@
 ---
 label: hours
 hide_body: true
-fields: []
+fields:
+- name: monday
+  type: text
+  config:
+    required: false
+  label: Monday
+- name: tuesday
+  type: text
+  config:
+    required: false
+  label: Tuesday
