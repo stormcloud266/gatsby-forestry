@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/data
+  path: src/data/hello.md
   label: hello
-  match: "**/*"
 - type: document
   path: src/data/hours.json
   label: Hours
