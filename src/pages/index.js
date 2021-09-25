@@ -3,25 +3,26 @@ import { Fade } from 'react-awesome-reveal'
 import Layout from '@global/layout/layout'
 import Seo from '@global/seo'
 import { Container, Title } from '@UI'
-import data from '../data/hours.json'
+import home from '../data/home.json'
 
 const IndexPage = () => {
 	return (
 		<Layout>
 			<Seo />
-			{console.log(hours)}
 			<Container section wrapperSm>
+				<Fade triggerOnce>
+					<Title tag='h1' center>
+						{home.title}
+					</Title>
+				</Fade>
 				<p
 					style={{
 						textAlign: 'center',
 						fontSize: '2rem',
 					}}
 				>
-					Welcome to{' '}
+					{home.subtitle}
 				</p>
-				<Fade triggerOnce>
-					<Title tag='h1'>Gatsby Starter Stormcloud</Title>
-				</Fade>
 			</Container>
 		</Layout>
 	)
