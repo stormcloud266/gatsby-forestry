@@ -6,8 +6,6 @@ import { Container, Title } from '@UI'
 import data from '../data/hours.json'
 
 const IndexPage = () => {
-	const hours = JSON.parse(JSON.stringify(data))
-
 	return (
 		<Layout>
 			<Seo />
